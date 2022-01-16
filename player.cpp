@@ -644,7 +644,11 @@ void Player::Update()
 		    //    	
 		}
     }
-    
+    if(dir==-1)
+    {
+    	srcRect.x = 0;
+		srcRect.y = 96;
+	}
     px=xpo;
     py=ypo;
     
