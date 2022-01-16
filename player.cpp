@@ -80,13 +80,6 @@ void Player::Update()
     if(rri == 1)
     cri=cri+1;
     //
-    if(cntt>=1000&&gover==0)
-    {
-        lvl1[3][11]=1;
-        lvl1[3][13]=1;
-        lvl1[16][11]=1;
-        lvl1[16][13]=1;
-    }
     int xyx=xpo;
     int yxy=ypo;
     star=star+1;

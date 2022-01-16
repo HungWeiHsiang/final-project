@@ -11,13 +11,6 @@ void Cloud::Update()
         ypos=800;
     }
     //
-    if(cntt>=1000&&gover==0)
-    {
-        lvl1[3][11]=1;
-        lvl1[3][13]=1;
-        lvl1[16][11]=1;
-        lvl1[16][13]=1;
-    }
     if(!gover)
     {
         if(ugl==2&&xpos%32==0&&ypos%32==0&&cntt>=800)
