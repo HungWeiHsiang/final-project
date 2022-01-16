@@ -565,7 +565,7 @@ void Player::Update()
 		        {
 		            case 3: // up
 		                srcRect.x = 0;
-		                srcRect.y = 96;
+		                srcRect.y = 100;
 		                break;
 		            case 1: // down
 		                srcRect.x = 0;
@@ -590,7 +590,7 @@ void Player::Update()
 		        {
 		            case 3: // up
 		                srcRect.x = 32;
-		                srcRect.y = 96;
+		                srcRect.y = 100;
 		                break;
 		            case 1: // down
 		                srcRect.x = 32;
@@ -615,7 +615,7 @@ void Player::Update()
 		        {
 		            case 3: // up
 		                srcRect.x = 64;
-		                srcRect.y = 96;
+		                srcRect.y = 100;
 		                break;
 		            case 1: // down
 		                srcRect.x = 64;
